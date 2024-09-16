@@ -1,0 +1,41 @@
+header
+{
+	border:1px solid blue;
+	background-color:pink;
+	border:none;
+	
+}
+.text
+{
+	color:orange;
+	text-align:center;
+	border:1px solid blue;
+	width:300px;
+	margin:auto;
+}
+ul
+{
+	float:right;
+}
+ul li
+{
+	display:inline-block;
+	margin:30px;
+	padding:30px;
+}
+ul li a
+{
+	text-decoration:none;
+	font-size:20px;
+}
+
+img
+{
+	width:150px;
+}
+
+ul li a:hover
+{
+	color:orange;
+	text-decoration:underline;
+}

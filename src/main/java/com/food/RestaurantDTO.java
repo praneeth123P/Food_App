@@ -17,7 +17,7 @@ public class RestaurantDTO
 	double avg_rating;
 	String curr_order_accepting_status;
 	String Image;
-	private String image;
+        String image;
 
 	public RestaurantDTO(int res_id, String res_name, String address, String location, String open_time,
 			String close_time, int gst_number, String cuisines_list, double contact_num, double bank_account_num,

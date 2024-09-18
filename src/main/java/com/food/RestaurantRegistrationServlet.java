@@ -45,11 +45,11 @@ public class RestaurantRegistrationServlet extends HttpServlet {
 		String ResClose=request.getParameter("ResClose");
 		int ResGSTNum=Integer.parseInt(request.getParameter("ResGSTNum"));
 		String ResCuisinsList=request.getParameter("ResCuisinsList");
-		double ResContactNum=Integer.parseInt(request.getParameter("ResContactNum"));
-		double ResBankAccNum=Integer.parseInt(request.getParameter("ResBankAccNum"));
+		double ResContactNum=Integer.parseDouble(request.getParameter("ResContactNum"));
+		double ResBankAccNum=Integer.parseDouble(request.getParameter("ResBankAccNum"));
 		String ResEmail=request.getParameter("ResEmail");
 		String ResPassword=request.getParameter("ResPassword");
-		double ResAvgRating= Float.parseFloat(request.getParameter("ResAvgRating"));
+		double ResAvgRating= Float.parseDouble(request.getParameter("ResAvgRating"));
 		String ResOrderAccept=request.getParameter("ResOrderAccept");
 		String ResImageURL=request.getParameter("ResImageURL");
 		PrintWriter pw= response.getWriter();
